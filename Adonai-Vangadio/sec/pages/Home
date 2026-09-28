@@ -1,0 +1,29 @@
+import Hero from "../sections/Hero";
+import AboutPreview from "../sections/AboutPreview";
+import Services from "../sections/Services";
+import WhyAdonai from "../sections/WhyAdonai";
+import Process from "../sections/Process";
+import Portfolio from "../sections/Portfolio";
+import Contact from "../sections/Contact";
+
+function Home() {
+  return (
+    <>
+      <Hero />
+
+      <AboutPreview />
+
+      <Services />
+
+      <WhyAdonai />
+
+      <Process />
+
+      <Portfolio />
+
+      <Contact />
+    </>
+  );
+}
+
+export default Home;
